@@ -8,12 +8,6 @@
 
   initializeApp(firebaseConfig);
 
-  /*const production = true;
-  if (!production)
-    firestore().settings({
-      host: "localhost:7001",
-      ssl: false,
-    });*/
 </script>
 
 <style>
