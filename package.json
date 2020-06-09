@@ -1,0 +1,44 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "dev:emulators": "firebase emulators:start --only firestore",
+    "dev:all": "concurrently \"firebase emulators:start --only firestore\" \"rollup -c -w\"",
+    "start": "sirv public -s"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@rollup/plugin-replace": "^2.3.2",
+    "@rollup/plugin-typescript": "^4.1.2",
+    "@types/node": "^14.0.9",
+    "concurrently": "^5.2.0",
+    "firebase": "^7.14.6",
+    "firebase-tools": "^8.4.1",
+    "global": "^4.4.0",
+    "remove": "^0.1.5",
+    "rollup": "^2.3.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.2.2",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "rxfire": "^3.12.6",
+    "rxjs": "^6.5.5",
+    "sirv-cli": "^0.4.4",
+    "svelte": "^3.0.0",
+    "svelte-preprocess": "^3.7.4",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "postcss": "^7.0.31",
+    "postcss-load-config": "^2.1.0",
+    "smelte": "^1.0.12",
+    "tailwindcss": "^1.4.6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    ".firebase": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    ".babelrc": true,
+    ".babelrc.js": true,
+    "**/.DS_Store": true,
+    "yarn.lock": true,
+    "tsconfig.json": true,
+    "ui-debug.log": true,
+    "svelte.config.ts": true,
+    "firestore-debug.log": true,
+    "firebase-debug.log": true,
+    ".firebaserc": true,
+    "node_modules": true,
+    "public": true,
+    "firestore.indexes.json": true,
+    "firestore.rules": true,
+    "src/config/": true,
+
+  }
+}

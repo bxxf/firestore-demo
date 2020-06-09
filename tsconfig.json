@@ -1,0 +1,20 @@
+{
+  "include": ["src/**/*", "config", "config"],
+  "exclude": ["node_modules/*"],
+  "compilerOptions": {
+      "types": ["node","svelte"],
+      "target": "es2018",
+      "module": "esnext",
+      "lib": [
+        "esnext",
+        "esnext.asynciterable",
+        "dom"
+      ],
+      "esModuleInterop": true,
+      "allowJs": true,
+      "sourceMap": true,
+      "strict": false,
+      "noEmit": true,
+  }
+}
+

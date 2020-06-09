@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "firestore-demo-cp",
+    "demo-cp": "firestore-demo-cp"
+  }
+}
